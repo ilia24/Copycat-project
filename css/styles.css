@@ -78,8 +78,51 @@ header > nav {
   margin-right: 10px;
 }
 
+.alignment {
+  max-width: 900px;
+  margin: 0px auto;
+}
+.welcome {
+  background-color: #26547C;
+  height: 309px;
+}
+section > img {
+  max-width: 100%;
+  float: left;
+  width: 60%;
+}
+section > h1 {
+  float: left;
+  width: 40%;
+  color: white;
+  font-size: 37.5px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  margin-top: 31px;
+  line-height: 45px;
+}
 
+.cats {
+  background-color: #FFD166;
+  padding: 33px 20px;
+}
 
+.cats p {
+  margin: 20px 0px;
+  font-size: 19.2px;
+  line-height: 22.5px;
+}
+
+.cats h2 {
+  font-weight: bold;
+  margin: 22.5px 0px;
+  font-size: 22.5px;
+}
+
+.store {
+  background-color: #F2F2F2;
+}
 
 
 footer {
