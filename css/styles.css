@@ -84,12 +84,14 @@ header > nav {
 }
 .welcome {
   background-color: #26547C;
-  height: 309px;
+  /*height: 309px;*/
+  overflow: hidden;
 }
 section > img {
   max-width: 100%;
   float: left;
   width: 60%;
+  margin-bottom: 5px;
 }
 section > h1 {
   float: left;
@@ -108,13 +110,15 @@ section > h1 {
   padding: 33px 20px;
 }
 
-.cats p {
+.cats p,
+.store p {
   margin: 20px 0px;
   font-size: 19.2px;
   line-height: 22.5px;
 }
 
-.cats h2 {
+.cats h2,
+.store h2 {
   font-weight: bold;
   margin: 22.5px 0px;
   font-size: 22.5px;
@@ -122,8 +126,22 @@ section > h1 {
 
 .store {
   background-color: #F2F2F2;
+  padding: 33px 20px;
+  overflow: hidden;
+  width: 100%;
 }
 
+.products img {
+  max-width: 100%;
+  border: 3px solid black;
+}
+
+.product-item {
+  display: inline-block;
+  padding: 10px;
+  width: 33.333333333%;
+  float: left;
+}
 
 footer {
   height: 50px;
