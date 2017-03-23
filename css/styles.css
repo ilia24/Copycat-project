@@ -57,20 +57,35 @@ table {
 /*END CSS RESET*/
 
 header {
+  background-color: rgb(6, 214, 160);
+  padding: 20px;
+  height: 100px;
+  text-align: center;
+}
+
+@media screen and (min-width: 550px) {
+header {
   height: 60px;
   background-color: rgb(6, 214, 160);
   padding: 0 20px;
 }
+}
+@media screen and (min-width: 550px) {
+  header > h1 {
+    font-size: 18px;
+    color: white;
+    float: left;
+    line-height: 60px;
+  }
+  header > nav {
+    float: right;
+  }
+}
 header > h1 {
   font-size: 18px;
   color: white;
-  float: left;
-  line-height: 60px;
 }
 
-header > nav {
-  float: right;
-}
 .litem {
   display: inline-block;
   line-height: 60px;
@@ -82,14 +97,31 @@ header > nav {
   max-width: 900px;
   margin: 0px auto;
 }
+
+.welcome h1{
+  border-bottom: 5px solid #EF476F;
+}
+@media screen and (min-width: 550px) {
+.welcome h1 {
+  border: 0;
+}
+}
+
 .welcome {
   background-color: #26547C;
   /*height: 309px;*/
   overflow: hidden;
 }
+@media screen and (min-width: 550px) {
+section > img,
+section > h1 {
+  float: left;
+
+}
+
+
 section > img {
   max-width: 100%;
-  float: left;
   width: 60%;
   margin-bottom: 5px;
 }
