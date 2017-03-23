@@ -27,7 +27,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -55,3 +55,41 @@ table {
 }
 
 /*END CSS RESET*/
+
+header {
+  height: 60px;
+  background-color: rgb(6, 214, 160);
+  padding: 0 20px;
+}
+header > h1 {
+  font-size: 18px;
+  color: white;
+  float: left;
+  line-height: 60px;
+}
+
+header > nav {
+  float: right;
+}
+.litem {
+  display: inline-block;
+  line-height: 60px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+
+
+
+
+footer {
+  height: 50px;
+  background-color: rgb(6, 214, 160);
+  text-align: right;
+  padding: 0px 20px;
+}
+
+footer > span  {
+  font-size: 19px;
+  line-height: 50px
+}
