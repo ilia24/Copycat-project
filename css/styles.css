@@ -111,7 +111,8 @@ section > h1 {
 }
 
 .cats p,
-.store p {
+.store p,
+.about p {
   margin: 20px 0px;
   font-size: 19.2px;
   line-height: 22.5px;
@@ -141,6 +142,23 @@ section > h1 {
   padding: 10px;
   width: 33.333333333%;
   float: left;
+}
+
+.about {
+  background-color: #26547C;
+  padding: 33px 20px;
+}
+
+.about p {
+  color: white;
+}
+section ul li h2 {
+  color: #EF476F;
+  font-size: 22.5px;
+  width: 33.3333333%;
+  float: left;
+  text-align: center;
+  margin: 20px 0px 40px 0px;
 }
 
 footer {
